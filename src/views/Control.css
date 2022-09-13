@@ -1,0 +1,75 @@
+.Control {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  width:  3050px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #535353;
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.tem {
+  width:  3050px;
+  height: 1850px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background: #e3e3e3;
+}
+
+
+.app-list {
+  color: black;
+  height: 150px;
+  font-size: 100px;
+  line-height: 7px;    
+  float: left;
+  width: 100%;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.app-list ul {
+  list-style: none;
+}
+.app-list ul li {
+  display: inline-block;
+  padding-left: 280px;
+  padding-right: 295px;
+  text-align: center;
+}
+
+
+.img-list {
+  color: black;
+  height: 50px; 
+  float: left;
+  width: 100%;
+  margin-top: 250px;
+  text-align: center;
+  margin-left: -200px;
+}
+.img-list ul {
+  list-style: none;
+}
+.img-list ul li {
+  display: inline-block;
+  padding-left: 350px;
+  padding-right: 350px;
+  text-align: center;
+}
